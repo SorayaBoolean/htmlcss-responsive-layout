@@ -1,0 +1,19 @@
+:root{
+    --blue-color: #0084FD;
+    --light-blue-color: #B5DDFF;
+    --purple-color:#9792E4;
+    --purple-dark-color:#605D83;
+    --text-color-white: #fff;
+    --text-color-grey:#5A6E7F;
+    --text-color-purple:#9792E4;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*********************header**********************/
+
