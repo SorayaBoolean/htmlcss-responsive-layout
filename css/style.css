@@ -17,7 +17,7 @@
 
 /*****************GENERAL-RULES******************/
 .container{
-   max-width: 600px;
+   max-width: 1200px;
    margin: auto;
 }
 
@@ -54,26 +54,47 @@
 
 /*****Info*****/
 
-#section-info .card{
-    margin-bottom: 1.5rem;
+.cards .card{
+    padding-bottom: 1.5rem;
 }
 
 /*******************Media Query******************/
-/******Mobile******/
+/******Tablet******/
 @media screen and (min-width:768px){
     .container{
         max-width 750px;
     }
+     .cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards .card{
+        width: calc(33%);
+    }
+
+    .cards .card:first-child{
+        width: calc(66%);
+    }
+
+
+
+
+
 }
 
-/******Tablet******/
+/******Desktop******/
 @media screen and (min-width:992px){
     .container{
         max: width 940px;
     }
+
+    .cards .card:first-child{
+       display: flex;
+    }
     
 }
-/******Desktop******/
+/******XL-Desktop******/
 @media screen and (min-width:1200px){
     .container{
         max: width 1140px;
