@@ -67,6 +67,8 @@
      .cards {
         display: flex;
         flex-wrap: wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
        
     }
 
@@ -79,13 +81,12 @@
     }
 
     .cards .card:first-child{
-        width: calc(66%);
+        width: calc(66.666% - 1.5rem);
     }
 
-
-
-
-
+    .cards .card:first-child{
+    background-color: var(--light-blue-color);
+}
 }
 
 /******Desktop******/
