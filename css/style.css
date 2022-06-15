@@ -15,5 +15,37 @@
     box-sizing: border-box;
 }
 
+/*****************GENERAL-RULES******************/
+.container{
+   max-width: 600px;
+   margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.vertical-align{
+    vertical-align: middle;
+}
+
+.px-2{
+    padding: 0 2rem;
+}
+
+
 /*********************header**********************/
 
+.header-section{
+    width: 100%;
+    height: 80px;
+    background-color: var(--blue-color);
+}
