@@ -67,10 +67,15 @@
      .cards {
         display: flex;
         flex-wrap: wrap;
+       
     }
 
     .cards .card{
-        width: calc(33%);
+        margin-bottom: 1.5rem;
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(33.333% - 1.5rem);
+    
     }
 
     .cards .card:first-child{
