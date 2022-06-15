@@ -50,9 +50,25 @@
 }
 
 /*******************Media Query******************/
+/******Mobile******/
+@media screen and (min-width:768px){
+    .container{
+        max-width 750px;
+    }
+}
 
-@media screen {
+/******Tablet******/
+@media screen and (min-width:992px){
+    .container{
+        max: width 940px;
+    }
     
+}
+/******Desktop******/
+@media screen and (min-width:1200px){
+    .container{
+        max: width 1140px;
+    }
 }
 
 /**************Debug-Rules**********************/
