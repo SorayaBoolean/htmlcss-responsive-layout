@@ -92,7 +92,7 @@
 #benefits {
     background-color: var(--purple-color);
     text-align: center;
-    margin: 2rem;
+    
 }
 #benefits .benefit-card{
     background-color: #fff;
@@ -144,6 +144,18 @@
     #testimonials .card-image{
         flex-shrink: 0;
         margin: 1.5rem;
+    }
+
+    #benefits .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #benefits .benefit-card{
+        width: calc(50% - 4rem);
+        text-align: center;
+      
     }
 
 
