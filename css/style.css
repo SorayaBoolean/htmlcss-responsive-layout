@@ -19,7 +19,9 @@
 .container{
    max-width: 1200px;
    margin: auto;
+   border: 1px solid red;
 }
+
 
 .flex{
     display: flex;
@@ -52,11 +54,43 @@
 
 /*********************Main**********************/
 
-/*****Info*****/
+/*****Section-Info*****/
 
 .cards .card{
-    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
+
+/*****Strategic-Plan*****/
+
+#Strategic-plan{
+    background-color: var(--purple-color);
+}
+
+#Strategic-plan .column{
+    padding-bottom: 2rem;
+}
+
+/*****testimonials*****/
+
+#testimonials .card{
+    background-color: var(--purple-color);
+    margin-bottom: 2rem;
+}
+
+#testimonials .card-test {
+    margin: 1rem;
+}
+
+
+#testimonials .card-image, {
+    margin: 1rem;
+}
+
+
+
+
+
+
 
 /*******************Media Query******************/
 /******Tablet******/
@@ -77,6 +111,7 @@
         margin-left: 0.75rem;
         margin-right: 0.75rem;
         width: calc(33.333% - 1.5rem);
+        justify-content: space-around;
     
     }
 
@@ -84,9 +119,7 @@
         width: calc(66.666% - 1.5rem);
     }
 
-    .cards .card:first-child{
-    background-color: var(--light-blue-color);
-}
+
 }
 
 /******Desktop******/
@@ -98,8 +131,19 @@
     .cards .card:first-child{
        display: flex;
     }
-    
+
+    #Strategic-plan .columns{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #Strategic-plan .column{
+        width: 50%;
+        padding: 2rem;
+    }
 }
+
+
 /******XL-Desktop******/
 @media screen and (min-width:1200px){
     .container{
@@ -112,5 +156,9 @@
 .debug .box {
     height: 80px;
     padding: 20px;
+    background-color: var(--light-blue-color);
+}
+
+.cards .card:first-child{
     background-color: var(--light-blue-color);
 }
