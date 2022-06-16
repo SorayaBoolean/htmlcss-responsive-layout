@@ -19,9 +19,7 @@
 .container{
    max-width: 1200px;
    margin: auto;
-   border: 1px solid red;
 }
-
 
 .flex{
     display: flex;
@@ -42,6 +40,10 @@
     padding: 0 2rem;
 }
 
+.text-white{
+    color: #fff;
+}
+
 
 /*********************Header**********************/
 
@@ -56,9 +58,6 @@
 
 /*****Section-Info*****/
 
-#section-info .card{
-    margin: 1.5rem 1rem 1rem 1rem;
-}
 
 
 /*****Strategic-Plan*****/
@@ -88,6 +87,21 @@
     margin-bottom: 1rem;
 }
 
+/*****benefits*****/
+
+#benefits {
+    background-color: var(--purple-color);
+    text-align: center;
+    margin: 2rem;
+}
+#benefits .benefit-card{
+    background-color: #fff;
+    margin: 0.75rem;
+}
+
+
+
+
 
 
 
@@ -114,7 +128,6 @@
         margin-right: 0.75rem;
         width: calc(33.333% - 1.5rem);
         justify-content: space-around;
-    
     }
 
     .cards .card:first-child{
@@ -133,12 +146,13 @@
         margin: 1.5rem;
     }
 
+
 }
 
 /******Desktop******/
 @media screen and (min-width:992px){
     .container{
-        max: width 940px;
+        max-width: 940px;
     }
 
     .cards .card:first-child{
@@ -154,13 +168,14 @@
         width: 50%;
         padding: 2rem;
     }
+
 }
 
 
 /******XL-Desktop******/
 @media screen and (min-width:1200px){
     .container{
-        max: width 1140px;
+        max-width: 1140px;
     }
 }
 
