@@ -121,6 +121,17 @@
         width: calc(66.666% - 1.5rem);
     }
 
+    #testimonials .card {
+        display: flex;
+    }
+    #testimonials .card-text{
+        flex-grow: 1;
+    }
+
+    #testimonials .card-image{
+        flex-shrink: 0;
+        margin: 1.5rem;
+    }
 
 }
 
