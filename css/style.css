@@ -170,7 +170,24 @@
     #benefits .benefit-card{
         width: calc(50% - 4rem);
         text-align: center;
-      
+    }
+
+    #about-us .cards-about{
+        display:flex;
+    }
+
+    #about-us .card-text{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #about-us .box-text-about{
+        width: 50%;
+    }
+
+    #about-us .card-img{
+        width: 50%;
     }
 
 
