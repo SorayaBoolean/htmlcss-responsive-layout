@@ -134,6 +134,20 @@
     text-align: center;
     padding: 2rem;
 }
+/*****************************************************/
+/*******************footer****************/
+
+footer{
+    background-color: #333333;
+}
+
+footer p {
+    margin: 2rem;
+    padding-top: 1rem;
+    text-align: center ;
+}
+
+
 
 
 /*******************Media Query******************/
