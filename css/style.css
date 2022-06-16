@@ -108,10 +108,8 @@
 /*****About-Us*****/
 
 #about-us {
-    margin-top: 6rem;
-    margin-bottom: 4rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: auto;
+    max-width: 1200px;
 
 }
 
