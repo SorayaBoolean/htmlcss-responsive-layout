@@ -6,6 +6,7 @@
     --text-color-white: #fff;
     --text-color-grey:#5A6E7F;
     --text-color-purple:#9792E4;
+    --text-free-yellow: #FDC15F;
 }
 
 
@@ -42,6 +43,10 @@
 
 .text-white{
     color: #fff;
+}
+
+.text-free-yellow{
+    color: var(--text-free-yellow);
 }
 
 
@@ -120,6 +125,14 @@
 #about-us .card-img{
     margin-top: 1rem;
     line-height: 1.5rem;
+}
+
+/*****Free*****/
+
+#free{
+    background-color: var(--purple-color);
+    text-align: center;
+    padding: 2rem;
 }
 
 
