@@ -56,9 +56,10 @@
 
 /*****Section-Info*****/
 
-.cards .card{
-    margin-bottom: 1.5rem;
+#section-info .card{
+    margin: 1.5rem 1rem 1rem 1rem;
 }
+
 
 /*****Strategic-Plan*****/
 
@@ -74,6 +75,7 @@
 
 #testimonials .card{
     background-color: var(--purple-color);
+    padding: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -82,8 +84,8 @@
 }
 
 
-#testimonials .card-image, {
-    margin: 1rem;
+#testimonials .card-image {
+    margin-bottom: 1rem;
 }
 
 
